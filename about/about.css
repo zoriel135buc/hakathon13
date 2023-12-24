@@ -98,7 +98,17 @@ html {
   padding: 2.5%;
   height: 200px;
 }
-.icon2 {
-  display: flex;
+.lastIcon {
   text-align: center;
+  padding-right: 100%;
+  text-align: center;
+  position: absolute;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: #f2f2f2;
+  margin-top: 30px;
+}
+.lastIcon:hover {
+  color: #0065fc;
 }
