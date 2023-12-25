@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/* bg contact and image */
 .bg-contact{
     background-image: url(https://ruachtova.org.il/wp-content/uploads/2023/10/09140704/desktop.jpg);
     background-size:cover;
@@ -11,7 +11,7 @@
    background-position: center;
    height: 500px;
 }
-
+/* making div on bg-image */
 .container-contact{
    
     border: 3px solid black ;
@@ -39,7 +39,7 @@ div h1{
     color: white;
     padding-left: 20px;
 }
-
+/* style the icons */
 .fontawesome{
     /* border: 1px solid red; */
     display: flex;

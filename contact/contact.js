@@ -1,4 +1,5 @@
 
+// input validation
 const form  = document.getElementsByTagName('form')[0];
 console.log(form)
 const email = document.getElementById("mail");
