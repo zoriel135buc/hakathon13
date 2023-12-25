@@ -56,42 +56,75 @@
  </nav>
  <div id="title">
   <h1>farmQuestions</h1>
-   <!-- buttton questions -->
-</div>
-<div id="button">
-  <button class="buttonclick" id="button1">
-    I'm a farmer and I want to join, how do I register?</button>
   <br>
-  <button class="buttonclick"  id="button2" > 
    
-Who are the volunteers at FarmTime, do they have an age limit? Do they have previous experience?</button>
-    <br>
-  <button class="buttonclick" id="button3">
-    Is there a limit to the amount of activities I can open in a certain period of time? </button>
-    <br>
-    <button class="buttonclick" id="button4">
-     Can I invite volunteers for any purpose? Or is there a limit to the types of activity possible? </button>
-    <br>
-    <button class="buttonclick" id="button5">
-         
-    How many hours does an activity day include?</button>
-    <br>
-    <button class="buttonclick" id="button6">
-         
-    Am I supposed to provide volunteers with food during the day?</button>
-    <br>
-    <button class="buttonclick" id="button7">
-         
-             
-    I am interested in holding an activity that includes accommodation, are there any special requirements for this?</button>
-  <br>
-   <button class="buttonclick" id="button8">  
-    What is expected of me (the farmer) on a working day? </button>
-   <br>
-   <button class="buttonclick" id="button9">  
-    What do you do in the case of a volunteer who does not want to work / behaves inappropriately? </button>
+   <!-- Accordion elements -->
+<div class="accordion" onclick="toggleAccordion('accordion1')">
+  <h2 id="accordion-title1">Who are the volunteers at FarmTime, do they have an age limit? Do they have previous experience?</h2>
+  <div class="accordion-content" id="accordion-content1">
+    <p>The volunteers are private individuals from all over the country and from a variety of backgrounds. Registration for the application is from the age of 15 onwards, younger volunteers must be accompanied by a registered adult by appointment.
+
+      All the volunteers have no previous experience working in an agricultural field. However, learn about the volunteers from their personal profile and the list of previous activities they participated in.</p>
+  </div>
 </div>
-    
+<br>
+<div class="accordion" onclick="toggleAccordion('accordion2')">
+  <h2 id="accordion-title2">Is there a limit to the amount of activities I can open in a certain period of time?</h2>
+  <div class="accordion-content" id="accordion-content2">
+    <p>There is no limit in the application on the number of activities that can be opened and we encourage every farmer to use it as much as possible. However, in order not to harm the reliability of the system and the user experience of the volunteers, the farmers are expected not to open idle activities or activities that are highly likely to be canceled.</p>
+  </div>
+</div>
+<br>
+<div class="accordion" onclick="toggleAccordion('accordion3')">
+  <h2 id="accordion-title3">Can I invite volunteers for any purpose? Or is there a limit to the types of activity possible? </h2>
+  <div class="accordion-content" id="accordion-content3">
+    <p>Sando is intended exclusively for direct activity in the fields of agriculture and herding (sheep and cattle). However, it is important to remember that the volunteers at Sando are skilled workers. Therefore, we recommend that every farmer find the winning combination for him between jobs that do not require too much skill and jobs that will not be too "humiliating" for the volunteers. At Sando we have already learned proper management and with positive energies we can bridge the skill gap of the volunteers and turn the whole task (even weeding ☺) into an experience!</p>
+  </div>
+</div>
+<br>
+<div class="accordion" onclick="toggleAccordion('accordion4')">
+  <h2 id="accordion-title4">How many hours does an activity day include? </h2>
+  <div class="accordion-content" id="accordion-content4">
+    <p>By and large, any arrangement agreed upon between you and the volunteers is legitimate. It is clear to us that below a certain time the work in the field is not effective and this of course remains at your personal discretion, depending on the size of the group and the type of work. From our experience at Sando, a classic working day is around 4-5 hours of net work, to which we must of course add work training and break times. It is also important to remember that it is very difficult to start a one-day activity before 9 am and this is because most of the volunteers come from some distance away. In order to start working days early in the morning, we recommend starting an activity that includes accommodation the night before (if you have such an option) and thus ensure the start of the activity on time.</p>
+  </div>
+</div>
+<br>
+<div class="accordion" onclick="toggleAccordion('accordion5')">
+  <h2 id="accordion-title5">Am I supposed to provide volunteers with food during the day? </h2>
+  <div class="accordion-content" id="accordion-content5">
+    <p>For the volunteer, the meal breaks and rest periods are an integral part of the volunteering experience and it is important to take them into account. In a one-day activity, an agreement can be made with the volunteers to bring food with them. However, in terms of volunteers, we at Sando recommend thinking of creative solutions in order to give the volunteers the physical information on the day of the activity. In order to avoid misunderstandings that could cause a negative experience, your host coordinates with the volunteers about what you can provide so that they can prepare accordingly, and whether they have special requests for kosher food, etc. information and you are not providing food, it is recommended to find other things that you can offer the volunteers at the meal: soft drinks, hot drinks, advice, creatives, etc.
+      Remember the farmer - the volunteer walks on his stomach!</p>
+  </div>
+</div>
+<br>
+<div class="accordion" onclick="toggleAccordion('accordion6')">
+  <h2 id="accordion-title6">I am interested in holding an activity that includes accommodation, are there any special requirements for this? </h2>
+  <div class="accordion-content" id="accordion-content6">
+    <p>Active activity Staying overnight the night before is an excellent way to start the activity day on time (especially if you plan to start an early activity). Also, the accommodation itself is an attraction for many volunteers and will make you more attractive. Sando does not impose any additional requirements in terms of accommodation and living conditions, although in order to have a good experience for everything, it is especially important to stretch the conditions in order to avoid misunderstandings and unpleasantness</p>
+  </div>
+</div>
+<br>
+<div class="accordion" onclick="toggleAccordion('accordion7')">
+  <h2 id="accordion-title7"> What is expected of me (the farmer) on a working day?  </h2>
+  <div class="accordion-content" id="accordion-content7">
+    <p>As a general rule, a successful experience for the volunteer will be one in which he felt a sense of connection to you, the farmer. A farmer in Sando is expected to introduce himself to the volunteers, guide them pre-work and work alongside them as much as possible. In the event that you are interested in using the application but feel that you cannot spare enough time for the benefit of the matter, we recommend appointing a representative on your behalf (for example a spouse, a relative connected to the farm, an employee with good social skills, etc.) in order to assist you in activating the volunteers.</p>
+  </div>
+</div>
+<br>
+<div class="accordion" onclick="toggleAccordion('accordion8')">
+  <h2 id="accordion-title8">What do you do in the case of a volunteer who does not want to work / behaves inappropriately?   </h2>
+  <div class="accordion-content" id="accordion-content8">
+    <p>In order to help understand what is expected of him in such situations. It must be remembered that the rules of activity in Sando will be based on the good will of each party of our fire, such is to let the volunteer enjoy the benefit of the doubt that he has no bad intentions and concentrate on the half-full glass. Preferably exceptions in which you feel that it is not possible to continue a very important activity, not to enter the volunteer's activity, but simply to release him from the activity in a good spirit. In case of inappropriate behavior you can report it in the application.</p>
+  </div>
+</div>
+
+  
+
+   
+
+
+ 
+
     <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

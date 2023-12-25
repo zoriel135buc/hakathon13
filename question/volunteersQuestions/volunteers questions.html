@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="question.css" />
+    <link rel="stylesheet" href="volunteers questions.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -54,47 +54,92 @@
  </nav>
  <div id="title">
   <h1>volunteersQuestions</h1>
-   
-</div>
-<div id="button">
-  <button class="buttonclick">
-    I'm a farmer and I want to join, how do I register?</button>
   <br>
-  <button class="buttonclick"> 
    
-Who are the volunteers at FarmTime, do they have an age limit? Do they have previous experience?</button>
-    <br>
-  <button class="buttonclick">
-    Is there a limit to the amount of activities I can open in a certain period of time? </button>
-    <br>
-    <button class="buttonclick">
-     Can I invite volunteers for any purpose? Or is there a limit to the types of activity possible? </button>
-    <br>
-    <button class="buttonclick">
-         
-    How many hours does an activity day include?</button>
-    <br>
-    <button class="buttonclick">
-         
-    Am I supposed to provide volunteers with food during the day?</button>
-    <br>
-    <button class="buttonclick">
-         
-             
-    I am interested in holding an activity that includes accommodation, are there any special requirements for this?</button>
-  <br>
-   <button class="buttonclick">  
-    What is expected of me (the farmer) on a working day? </button>
-   <br>
-   <button class="buttonclick">  
-    What do you do in the case of a volunteer who does not want to work / behaves inappropriately? </button>
-   
+<!-- Accordion elements -->
+<div class="accordion" onclick="toggleAccordion('accordion1')">
+  <h2 id="accordion-title1">  Who are the volunteers at FarmTime, do they have an age limit? Do they have previous experience?</h2>
+  <div class="accordion-content" id="accordion-content1">
+    <p>Registering for Sando as a volunteer is easy and fast. All that is required is to download the application, fill out the user profile and... start volunteering!
 
+      The minimum age to register for the application is 15. Teenagers between the ages of 15-18 are required to have parental consent which will be provided in the application at the time of registration. After that, every time you register for a future activity, an email will be sent to the parents. Teenagers under the age of 15 cannot register for the application by themselves, but can come to the activity accompanied by an adult Sando user (over the age of 18) who has registered for an activity that allows this, for example - a family activity.
+      </p>
+  </div>
+</div>
+<br>
+<div class="accordion" onclick="toggleAccordion('accordion2')">
+  <h2 id="accordion-title2">  Who are the farmers in farmtime? Is it possible to volunteer in the whole country? </h2>
+  <div class="accordion-content" id="accordion-content2">
+    <p>The farmers in FarmTime are farm owners from all over the country who appreciate the benefits of using volunteers and are eager to provide them with a unique experience. In the personal profile of each farmer, you can learn about his farm and the activities he hosted in the past.
+      </p>
+  </div>
+</div>
+  <br>
+  <div class="accordion" onclick="toggleAccordion('accordion3')">
+    <h2 id="accordion-title3">
+      Can the farmer ask me to do any kind of work? </h2>
+    <div class="accordion-content" id="accordion-content3">
+      <p>FarmTime is intended exclusively for direct activity in the fields of agriculture and grazing (sheep and cattle). For each activity opened in the application, the farmer is required to indicate exactly its type in order to allow you to choose the activity in the best way and to know exactly what is expected of you on the day of the activity. However, there may be cases in which the farmer is forced to change the planned activity (weather, last minute cancellations and more), in these cases the volunteers are expected to show patience and goodwill.
+        </p>
+    </div>
+  </div>
+    <br>
+    <div class="accordion" onclick="toggleAccordion('accordion4')">
+      <h2 id="accordion-title4">
+        How many hours does an activity day include? </h2>
+      <div class="accordion-content" id="accordion-content4">
+        <p>A classic volunteer day at FarmTime is around 4-5 net work hours to which must be added work briefing times and breaks. The working hours of each farmer are detailed on his activity page and if something is not clear, you can always find out more details in a chat or a phone call. By and large, any arrangement agreed upon between you and the farmer is legitimate, but note that even volunteering requires a minimum work time commitment, otherwise it is not effective and does not help the farmer. Therefore, in most cases an activity of less than 3 net working hours will be unlikely.
+        </p>
+      </div>
+    </div>
+      <br>
+      <div class="accordion" onclick="toggleAccordion('accordion5')">
+        <h2 id="accordion-title5">
+          I would like to combine accommodation with a farmer as part of the volunteering, is this possible? </h2>
+        <div class="accordion-content" id="accordion-content5">
+          <p>Many farmers offer accommodation options in order to improve the experience of the volunteers and start the day of volunteering on time. Each farmer who offers lodging lists in his profile the conditions (tent / trailer / room, toilet, shower, etc.) and what he has to offer in addition (area for lighting a fire, kitchenette, cooking utensils, etc.). However, in order to ensure a good experience for all parties, we recommend verifying the details in a conversation with the farmer before the activity.</p>
+        </div>
+      </div>
+        <br>
+        <div class="accordion" onclick="toggleAccordion('accordion6')">
+          <h2 id="accordion-title6">
+            I have never worked in agriculture, how can I know what activity is suitable for me?
+           </h2>
+          <div class="accordion-content" id="accordion-content6">
+            <p>On each activity page in the application, the hours of activity, the nature of the work and the level of physical difficulty are detailed in order to help you as much as possible to choose an appropriate activity. Also, if something is still unclear, you can always contact the farmer via chat in the app or on the phone and ask additional questions.
+            </p>
+          </div>
+        </div>
+          <br>
+          <div class="accordion" onclick="toggleAccordion('accordion7')">
+            <h2 id="accordion-title7">What is important to bring from home for an activity day?
+              
+             </h2>
+            <div class="accordion-content" id="accordion-content7">
+              <p>Any activity in FarmTime requires long pants and closed shoes. In the hot seasons, a hat, a shirt with long sleeves and water are also recommended (the farmer always takes care of water in the work area, but it doesn't hurt to bring).
+
+                In addition, you must bring food and lodging equipment (if required) as agreed with the farmer
+              </p>
+            </div>
+          </div>
+            <br>
+            <div class="accordion" onclick="toggleAccordion('accordion8')">
+              <h2 id="accordion-title8">
+                What is expected of me (the volunteer) on a working day?
+                
+               </h2>
+              <div class="accordion-content" id="accordion-content8">
+                <p>
+                  After matching expectations and confirming the details with the farmer there shouldn't be many surprises. What remains now is to arrive on time with appropriate clothing, listen carefully to the training before work and make sure to work according to the safety rules. It is important to remember that the work that is done is the farmer's livelihood and must be treated with respect.
+                </p>
+              </div>
+            </div>
+              <br>
+           
      
    
 
 
-</div>
     <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
