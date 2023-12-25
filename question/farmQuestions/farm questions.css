@@ -7,9 +7,11 @@
   text-align: center;
   padding-top: 20px;
 }
-.buttonclick {
-  margin-bottom: 50px;
-}
 #button {
   padding-left: 25vh;
+}
+#button > .buttonclick {
+  margin: 5px;
+  margin-top: 60px;
+  background-color: DodgerBlue;
 }
