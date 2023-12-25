@@ -25,7 +25,7 @@ html {
   color: white;
   font-weight: bold;
   position: absolute;
-  top: 35%;
+  top:55%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -74,10 +74,7 @@ html {
   border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
 }
 
-::after,
-::before {
-  box-sizing: border-box;
-}
+
 
 .row {
   --bs-gutter-x: 1.5rem;
@@ -96,7 +93,13 @@ html {
   height: 200px;
 }
 
+<<<<<<< HEAD
 footer {
   height: 10vh;
+=======
+ footer{
+  
+  height:10vh;
+>>>>>>> fb343d89f2ae7f3b84a37fe8dc9f7a97d751155c
   margin-left: 35vw;
 }

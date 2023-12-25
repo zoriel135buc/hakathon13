@@ -41,15 +41,13 @@ div h1{
 }
 /* style the icons */
 .fontawesome{
-    /* border: 1px solid red; */
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 10vh;
-    width: 10vw;
-    /* margin-left: 250px;
-    text-align: center;
-    margin-top:20px; */
+    padding: 15vw;
+    padding-top: 5vh;
+    
 
     
 }
